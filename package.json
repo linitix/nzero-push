@@ -1,0 +1,21 @@
+{
+    "name": "nzero-push",
+    "version": "0.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/linitix/nzero-push.git"
+    },
+    "author": "Ismael Gorissen <ismael.gorissen@linitix.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/linitix/nzero-push/issues"
+    },
+    "homepage": "https://github.com/linitix/nzero-push",
+    "dependencies": {
+        "request": "^2.37.0"
+    },
+    "main": "index",
+    "keywords": [],
+    "contributors": []
+}
