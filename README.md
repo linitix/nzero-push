@@ -1,9 +1,14 @@
 # nzero-push
 
+## Contribution
+
+NEED YOUR HELP (if you have an account and a sample mobile app)
+
 ## ToDo
 
 * better documentation!
 * all endpoints
+* better errors handling (naming and message)
 
 ## Description
 
