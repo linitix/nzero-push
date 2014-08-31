@@ -1,5 +1,7 @@
 # nzero-push
 
+[![Stories in Ready](https://badge.waffle.io/linitix/nzero-push.svg?label=ready&title=Ready)](http://waffle.io/linitix/nzero-push)
+
 ## Description
 
 ZeroPush is a simple service for sending Apple Push Notifications. This library wraps the API requests for use in NodeJS.
@@ -13,12 +15,14 @@ NEED YOUR HELP (if you have an account and a sample mobile app)
 * `/notify` : Sends a notification to a list of device tokens.
 * `/register` : Registers a device and/or updates the devices active status
 * `/unregister` : Unregisters a previously registered device token
+* `/inactive_tokens` : Returns an array of device tokens along with the time each token was marked inactive
+* `/set_badge` : Sets a device's badge number to a given value
 
 ## ToDo
 
 * better documentation!
 * all endpoints
-* better errors handling (naming and message)
+* better errors handling (name and message)
 
 ## Full documentation
 
