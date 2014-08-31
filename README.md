@@ -1,7 +1,5 @@
 # nzero-push
 
-[![Stories in Ready](https://badge.waffle.io/linitix/nzero-push.svg?label=ready&title=Ready)](http://waffle.io/linitix/nzero-push)
-
 ## Description
 
 ZeroPush is a simple service for sending Apple Push Notifications. This library wraps the API requests for use in NodeJS.
