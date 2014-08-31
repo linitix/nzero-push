@@ -15,12 +15,15 @@ NEED YOUR HELP (if you have an account and a sample mobile app)
 * `/unregister` : Unregisters a previously registered device token
 * `/inactive_tokens` : Returns an array of device tokens along with the time each token was marked inactive
 * `/set_badge` : Sets a device's badge number to a given value
+* `POST /subscribe/:channel` : Subscribes a device to a particular notification channel
+* `DELETE /subscribe/:channel` : Unsubscribes a device from a particular notification channel
+* `/broadcast[/:channel]` : Sends a notification to all registered and active devices. If the channel parameter is specified, only devices subscribed to that channel will recieve notifications.
 
 ## ToDo
 
-* better documentation!
-* all endpoints
-* better errors handling (name and message)
+* /!\ Maybe run some tests /!\
+* Better documentation (in progress ...)
+* Better errors handling (name and message)
 
 ## Full documentation
 
