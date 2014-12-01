@@ -1,5 +1,7 @@
 # nzero-push
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/linitix/nzero-push?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ## Description
 
 ZeroPush is a simple service for sending Apple Push Notifications. This library wraps the API requests for use in NodeJS.
