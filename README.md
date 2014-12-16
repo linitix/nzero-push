@@ -30,6 +30,10 @@ See the [wiki](https://github.com/linitix/nzero-push/wiki) for full documentatio
 
 ## Change logs
 
+###### v1.0.2
+
+* Use `DELETE /register` instead of (now deprecated) `DELETE /unregister`
+
 ###### v1.0.1
 
 * Use `Content-Type: application/json` instead of `Content-Type: application/x-www-form-urlencoded`
