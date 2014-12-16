@@ -1,6 +1,6 @@
 {
   "name": "nzero-push",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "ZeroPush is a simple service for sending Apple Push Notifications. This library wraps the API requests for use in NodeJS.",
   "repository": {
     "type": "git",
