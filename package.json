@@ -1,12 +1,12 @@
 {
   "name": "nzero-push",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ZeroPush is a simple service for sending Apple Push Notifications. This library wraps the API requests for use in NodeJS.",
   "repository": {
     "type": "git",
     "url": "https://github.com/linitix/nzero-push.git"
   },
-  "author": "Ismael Gorissen <ismael.gorissen@linitix.com>",
+  "author": "Lenny Ticks <npm@linitix.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/linitix/nzero-push/issues"
@@ -33,5 +33,10 @@
     "safari",
     "notification"
   ],
-  "contributors": []
+  "contributors": [
+    {
+      "name": "Ismael Gorissen",
+      "email": "ismael.gorissen@gmail.com"
+    }
+  ]
 }
