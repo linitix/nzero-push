@@ -30,6 +30,10 @@ See the [wiki](https://github.com/linitix/nzero-push/wiki) for full documentatio
 
 ## Change logs
 
+###### v1.2.0
+
+* `notify` and `broadcast` endpoints accept Android platform
+
 ###### v1.1.0
 
 * Add new endpoints
