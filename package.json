@@ -16,6 +16,7 @@
     "async": "^0.9.0",
     "clone": "^0.1.19",
     "debug": "^2.1.0",
+    "parse-link-header": "^0.2.0",
     "request": "^2.51.0"
   },
   "main": "index",
