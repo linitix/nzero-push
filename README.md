@@ -16,19 +16,31 @@ ZeroPush is a simple service for sending Apple Push Notifications. This library 
 ## Available endpoints
 
 * `/notify` : Sends a notification to a list of device tokens.
-* `/register` : Registers a device and/or updates the devices active status
-* `/unregister` : Unregisters a previously registered device token
-* `/inactive_tokens` : Returns an array of device tokens along with the time each token was marked inactive
-* `/set_badge` : Sets a device's badge number to a given value
-* `/subscribe/:channel` : Subscribes a device to a particular notification channel
-* `/unsubscribe/:channel` : Unsubscribes a device from a particular notification channel
+* `/register` : Registers a device and/or updates the devices active status or unregisters a previously registered device token.
+* `/inactive_tokens` : Returns an array of device tokens along with the time each token was marked inactive.
+* `/set_badge` : Sets a device's badge number to a given value.
+* `/subscribe/:channel` : Subscribes a device to a particular notification channel or unsubscribes a device from a particular notification channel.
 * `/broadcast[/:channel]` : Sends a notification to all registered and active devices. If the channel parameter is specified, only devices subscribed to that channel will recieve notifications.
+* `/devices[/:device_token]` : Get all, one or update device(s) details.
+* `/channels[/:channel_name]` : Get all, one or delete channel(s).
 
 ## Full documentation
 
 See the [wiki](https://github.com/linitix/nzero-push/wiki) for full documentation about module API.
 
 ## Change logs
+
+###### v1.1.0
+
+* Add new endpoints
+  * `GET /channels`
+  * `GET /channels/{channel_name}`
+  * `DELETE /channels/{channel_name}`
+  * `GET /devices`
+  * `GET /devices/{device_token}`
+  * `PUT /devices/{device_token}`
+  * `PATCH /devices/{device_token}`
+* Update Wiki
 
 ###### v1.0.2
 
