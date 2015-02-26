@@ -1,1 +1,0 @@
-exports.ZeroPush = require("./lib/zero_push");
