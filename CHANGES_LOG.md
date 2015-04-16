@@ -1,5 +1,13 @@
 # Changes log
 
+###### v1.3.2
+
+* Fix required & optional params checking **(PULL REQUEST)**
+
+###### v1.3.1
+
+* Changed the way device tokens are added on iOS **(PULL REQUEST)**
+
 ###### v1.3.0
 
 * add `since` optional parameter for `GET /inactive_tokens`
