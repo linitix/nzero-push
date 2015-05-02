@@ -1,0 +1,9 @@
+{
+  "type": "string",
+  "enum": [
+    "android",
+    "ios_macos",
+    "safari"
+  ],
+  "required": true
+}
