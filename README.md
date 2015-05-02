@@ -2,7 +2,7 @@
 
 ## Description
 
-ZeroPush is a simple service for sending Apple Push Notifications. This library wraps the API requests for use in NodeJS.
+ZeroPush is a simple service for sending Push Notifications (Apple & Google). This library wraps the API requests for use in NodeJS.
 
 ## To do
 
