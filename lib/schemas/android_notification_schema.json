@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "required": true
+    },
+    "collapse_key": {
+      "type": "string",
+      "optional": true
+    },
+    "delay_while_idle": {
+      "type": "boolean",
+      "optional": true
+    },
+    "time_to_live": {
+      "type": "number",
+      "optional": true
+    }
+  },
+  "additionalProperties": false
+}

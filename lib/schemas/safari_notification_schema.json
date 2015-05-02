@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "string",
+      "required": true
+    },
+    "expiry": {
+      "type": "number",
+      "optional": true
+    },
+    "label": {
+      "type": "string",
+      "optional": true
+    },
+    "url_args": {
+      "type": "array",
+      "optional": true
+    }
+  },
+  "additionalProperties": false
+}
