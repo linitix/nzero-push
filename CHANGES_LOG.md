@@ -1,5 +1,9 @@
 # Changes log
 
+###### v1.4.0
+
+*
+
 ###### v1.3.2
 
 * Fix required & optional params checking **(PULL REQUEST)**
