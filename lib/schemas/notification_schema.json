@@ -1,0 +1,114 @@
+{
+  "type": "object",
+  "required": true,
+  "oneOf": [
+    {
+      "properties": {
+        "sound": {
+          "type": "string",
+          "optional": true
+        },
+        "info": {
+          "type": "object",
+          "optional": true
+        },
+        "expiry": {
+          "type": "number",
+          "optional": true
+        },
+        "content_available": {
+          "type": "boolean",
+          "optional": true
+        },
+        "category": {
+          "type": "string",
+          "optional": true
+        },
+        "badge": {
+          "type": [
+            "number",
+            "string"
+          ],
+          "optional": true
+        },
+        "alert": {
+          "type": [
+            "string",
+            "object"
+          ],
+          "optional": true,
+          "properties": {
+            "body": {
+              "type": "string",
+              "optional": true
+            },
+            "action-loc-key": {
+              "type": "string",
+              "optional": true
+            },
+            "loc-key": {
+              "type": "string",
+              "optional": true
+            },
+            "loc-args": {
+              "type": "string",
+              "optional": true
+            },
+            "launch-image": {
+              "type": "string",
+              "optional": true
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "properties": {
+        "data": {
+          "type": "object",
+          "required": true
+        },
+        "collapse_key": {
+          "type": "string",
+          "optional": true
+        },
+        "delay_while_idle": {
+          "type": "boolean",
+          "optional": true
+        },
+        "time_to_live": {
+          "type": "number",
+          "optional": true
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "properties": {
+        "title": {
+          "type": "string",
+          "required": true
+        },
+        "body": {
+          "type": "string",
+          "required": true
+        },
+        "expiry": {
+          "type": "number",
+          "optional": true
+        },
+        "label": {
+          "type": "string",
+          "optional": true
+        },
+        "url_args": {
+          "type": "array",
+          "optional": true
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}
