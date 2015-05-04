@@ -1,5 +1,11 @@
 # Changes log
 
+###### v2.1.0
+
+* Update wiki
+* Broadcast all devices for a platform and not only for a specific channel
+* Retrieve inactive tokens without the `since` parameter
+
 ###### v2.0.0
 
 * Complete rewrite of the module.
