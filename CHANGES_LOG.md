@@ -1,8 +1,9 @@
 # Changes log
 
-###### v1.4.0
+###### v2.0.0
 
-*
+* Complete rewrite of the module.
+* Use JSON schema to validate all parameters.
 
 ###### v1.3.2
 
