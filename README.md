@@ -13,7 +13,6 @@ ZeroPush is a simple service for sending Push Notifications (Apple & Google). Th
 ## To do
 
 * /!\ Maybe run some tests /!\
-* Update Wiki
 
 ## Changes log
 
