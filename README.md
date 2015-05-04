@@ -1,5 +1,11 @@
 # nzero-push
 
+[![NPM version](https://img.shields.io/npm/v/nzero-push.svg?style=flat-square)](http://badge.fury.io/js/nzero-push)
+[![Dependency Status](https://img.shields.io/david/linitix/nzero-push.svg?style=flat-square)](https://david-dm.org/linitix/nzero-push)
+[![License](https://img.shields.io/npm/l/nzero-push.svg?style=flat-square)]()
+[![NPM Downloads](https://img.shields.io/npm/dm/nzero-push.svg?style=flat-square)]()
+[![Code Climate](https://img.shields.io/codeclimate/github/linitix/nzero-push.svg?style=flat-square)](https://codeclimate.com/github/linitix/nzero-push)
+
 ## Description
 
 ZeroPush is a simple service for sending Push Notifications (Apple & Google). This library wraps the API requests for use in NodeJS.
