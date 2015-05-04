@@ -1,5 +1,10 @@
 # Changes log
 
+###### v2.0.0
+
+* Complete rewrite of the module.
+* Use JSON schema to validate all parameters.
+
 ###### v1.3.2
 
 * Fix required & optional params checking **(PULL REQUEST)**

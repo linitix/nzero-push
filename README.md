@@ -2,12 +2,12 @@
 
 ## Description
 
-ZeroPush is a simple service for sending Apple Push Notifications. This library wraps the API requests for use in NodeJS.
+ZeroPush is a simple service for sending Push Notifications (Apple & Google). This library wraps the API requests for use in NodeJS.
 
 ## To do
 
 * /!\ Maybe run some tests /!\
-* Better errors handling (name and message)
+* Update Wiki
 
 ## Changes log
 
@@ -25,10 +25,10 @@ See [license](LICENSE).
 
 * `/notify` : Sends a notification to a list of device tokens.
 * `/register` : Registers a device and/or updates the devices active status or unregisters a previously registered device token.
+* `/unregister` : Unregisters a previously registered device token.
 * `/inactive_tokens` : Returns an array of device tokens along with the time each token was marked inactive.
 * `/set_badge` : Sets a device's badge number to a given value.
-* `/subscribe/:channel` : Subscribes a device to a particular notification channel or unsubscribes a device from a particular notification channel.
-* `/broadcast[/:channel]` : Sends a notification to all registered and active devices. If the channel parameter is specified, only devices subscribed to that channel will recieve notifications.
+* `/broadcast/:channel` : Sends a notification to all registered and active devices in specified channel.
 * `/devices[/:device_token]` : Get all, one or update device(s) details.
 * `/channels[/:channel_name]` : Get all, one or delete channel(s).
 
