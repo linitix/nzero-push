@@ -1,5 +1,9 @@
 # Changes log
 
+###### v2.1.1
+
+* Fix an issue with schema name
+
 ###### v2.1.0
 
 * Update wiki
