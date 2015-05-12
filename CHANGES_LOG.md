@@ -1,5 +1,9 @@
 # Changes log
 
+###### v2.1.2
+
+* Fixed typo (brodcast -> broadcast)
+
 ###### v2.1.1
 
 * Fix an issue with schema name
