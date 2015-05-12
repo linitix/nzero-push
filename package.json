@@ -1,6 +1,6 @@
 {
   "name": "nzero-push",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "ZeroPush is a simple service for sending Push Notifications (Apple & Google). This library wraps the API requests for use in NodeJS.",
   "repository": {
     "type": "git",
@@ -47,6 +47,9 @@
     },
     {
       "name": "Jesse Armand"
+    },
+    {
+      "name": "Ken Lim"
     }
   ]
 }
