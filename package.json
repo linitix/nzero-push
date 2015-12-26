@@ -1,6 +1,6 @@
 {
   "name": "nzero-push",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "ZeroPush is a simple service for sending Push Notifications (Apple & Google). This library wraps the API requests for use in NodeJS.",
   "repository": {
     "type": "git",
@@ -14,12 +14,12 @@
   "homepage": "https://github.com/linitix/nzero-push",
   "dependencies": {
     "clone": "^1.0.2",
-    "debug": "^2.1.3",
-    "http-status": "^0.1.8",
-    "is-my-json-valid": "^2.10.1",
-    "neo-async": "^1.0.1",
-    "parse-link-header": "^0.2.0",
-    "request": "^2.55.0"
+    "debug": "^2.2.0",
+    "http-status": "^0.2.0",
+    "is-my-json-valid": "^2.12.3",
+    "neo-async": "^1.7.1",
+    "parse-link-header": "^0.4.1",
+    "request": "^2.67.0"
   },
   "main": "./lib/zero_push",
   "keywords": [
@@ -50,6 +50,12 @@
     },
     {
       "name": "Ken Lim"
+    },
+    {
+      "name": "Amine Mouafik"
+    },
+    {
+      "name": "Jason Yeh"
     }
   ]
 }
