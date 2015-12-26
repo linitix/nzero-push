@@ -10,10 +10,6 @@
 
 ZeroPush is a simple service for sending Push Notifications (Apple & Google). This library wraps the API requests for use in NodeJS.
 
-## To do
-
-* /!\ Maybe run some tests /!\
-
 ## Changes log
 
 See [changes log](CHANGES_LOG.md).

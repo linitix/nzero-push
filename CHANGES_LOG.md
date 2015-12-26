@@ -1,4 +1,8 @@
 # Changes log
+###### v2.2.0
+
+* Fix unregister method _(pull request)_
+* Update channel_endpoint.js _(pull request)_
 
 ###### v2.1.2
 
